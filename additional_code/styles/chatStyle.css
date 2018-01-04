@@ -1,0 +1,151 @@
+body {
+    padding-top: 3.5rem;
+}
+
+main {
+    margin-left: 12%;
+    margin-right: 0px;
+    text-align: center;
+}
+
+.starter-template {
+    padding-top: 1.5rem;
+}
+
+.ui-autocomplete {
+    z-index: 9999 !important;
+    background-color: white; 
+    width: 200px;
+    border: solid 1px #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+    list-style-type: none;
+    text-align: left;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.ui-autocomplete:hover {
+    border-color: #28a745;
+}
+
+.ui-helper-hidden-accessible {
+    display: none;
+}
+
+.sidebar {
+    background-color: #343a40 !important;
+    min-width: 200px;
+    width: 200px;
+    position: fixed;
+    top: 51px;
+    bottom: 0;
+    left: 0;
+    z-index: 1000;
+    padding-left: 0px;
+    padding-right: 1px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    border-right: 1px solid #eee;
+}
+
+.sidebar .nav {
+    margin-bottom: 20px;
+}
+
+.sidebar .nav-item {
+    width: 100%;
+}
+
+.sidebar .nav-item + .nav-item {
+    margin-left: 0;
+}
+
+.sidebar .nav-link {
+    border-radius: 0;
+}
+
+.quickFriend {
+    color: rgba(255,255,255,.5);
+}
+
+.quickFriend:hover {
+    color: #28a745;
+    border: solid 1px #28a745;
+    border-radius: .25rem; 
+}
+
+.btn {
+    text-align: left;
+}
+
+#friends {
+    text-align: center;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 10px;
+    margin-top: 5px;
+    color: #28a745;
+    background-color: transparent;
+    border: solid 1px #28a745;
+    border-radius: .25rem; 
+}
+
+#friends:hover {
+    color: white;
+    background-color: #28a745;
+}
+
+
+#back {
+    font-size: 1rem;
+    color: black;
+    text-decoration: none !important;
+}
+
+.allMsg {
+    width: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: flex-end;
+}
+
+/*.chatMsg {
+    max-width: 30%;
+}*/
+
+.self {
+    border-radius: 1rem;
+    background-color: #28a745;
+    text-align: right;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.friend {
+    border-radius: 1rem;
+    text-align: left !important;
+    padding-left: 5px;
+    background-color: #007bff;
+    padding-right: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#chatWith {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 40px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #eee;
+}
+
+#header {
+    text-align: left;
+}
+
+#backImg {
+    height:1rem;
+}
