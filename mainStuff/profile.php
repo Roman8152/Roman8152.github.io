@@ -17,6 +17,7 @@ if(isset($_SESSION["username"])) {
 else {
 	header("location: ../reg_log/firstPage.php");
 }
+
 ?>
 
 <!DOCTYPE html>
@@ -31,6 +32,7 @@ else {
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css"
 	    integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
 	    <link rel="stylesheet" href="../additional_code/styles/mainPage.css" type="text/css">
+	    <link rel="stylesheet" href="../additional_code/styles/profileStyle.css" type="text/css">
 	    <script src="https://code.jquery.com/jquery-3.2.1.min.js"
 	    integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous">
 	    </script>
@@ -47,6 +49,7 @@ else {
 	    </script>
 	    <main>
 			<div class="starter-template">
+				<div id="profPic"></div>
 				<p><?php echo $foundUid; ?></p>
 				<a href="chat.php">Start chat with <?php echo $foundUid; ?></a>
 			</div>
